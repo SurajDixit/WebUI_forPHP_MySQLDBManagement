@@ -22,7 +22,7 @@ if(strtoupper($checkType[0]) == "SELECT")
     echo "<table border=1 align='center'>";
     
     //getting table headers
-    $sql1 = "SELECT `COLUMN_NAME` FROM `INFORMATION_SCHEMA`.`COLUMNS` WHERE `TABLE_SCHEMA`='".$dbname."' AND `TABLE_NAME`='".$tablename."'";
+    $sql1 = "SELECT `COLUMN_NAME` FROM `INFORMATION_SCHEMA`.`COLUMNS` WHERE `TABLE_SCHEMA`='".$db."' AND `TABLE_NAME`='".$tablename."'";
     $result1 = mysqli_query($conn, $sql1);
     if(mysqli_num_rows($result1) > 0)
     {
