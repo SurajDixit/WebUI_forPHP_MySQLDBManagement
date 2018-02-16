@@ -11,4 +11,4 @@
 
 <p>For more details follow the below blog:</p>
 
-<p>https://technobytes.azurewebsites.net/</p>
+<p>https://technobytes.azurewebsites.net/techbytes/?q=web-ui-for-db-mgmt-php-mysql/</p>
