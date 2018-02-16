@@ -89,7 +89,7 @@ else
         //failure
         echo "<center>Query '".$sql."' did not execute!<br>";
         echo mysqli_error($conn);
-        echo "<br><a href='https://jarvis-test.azurewebsites.net/query_form.html'>Go back to Query-form page</a></center>";
+        echo "<br><a href='query_form.html'>Go back to Query-form page</a></center>";
     }
 }
 
